@@ -8,9 +8,9 @@ __USING THE WIN32 API FROM MS OFFICE CAN BE DANGEROUS IF NOT USED CORRECTLY AND 
 
 ## Where to View or Download:
 
-- For versions of Microsoft Office 2010 and later, use these declarations: [Win32api_ptrsafe.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api_ptrsafe.txt) 
+- For versions of __Microsoft Office 2010 and later__, use these declarations: [Win32api_ptrsafe.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api_ptrsafe.txt) 
 
-- For versions of Microsoft Office 2007 and earlier, use these declarations: [Win32api.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api.txt) 
+- For versions of __Microsoft Office 2007 and earlier__, use these declarations: [Win32api.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api.txt) 
 
 
 
@@ -32,8 +32,11 @@ Some things to be aware of when using these Win32 declaration statements with VB
 
 2.  These files are not a complete list of all of the Win32 API methods or data types available for use with VBA, but rather the list of the most commonly used.  For a complete listing of all documented Win32 methods, see the [Microsoft Win32 API documentation here](https://learn.microsoft.com/en-us/windows/win32/api/).
 
-3.  The declarations contained in either of these files are just suggestions about how to declare each specific Win32 method, but these are not the end all to writing these declare statements.  Declare statements, in some cases, can be written multiple ways, using different type paremeters, all of which may be valid due to the difference between data types in C++/Win32 and data types in VBA.
+3.  The declarations contained in either of these files are the suggested declarations for each specific Win32 API method, but in man cases, these are not the only valid method for declaring these Win32 API statements.  Declare statements, in some cases, can be written multiple ways, using different type parameters, all of which may be valid due to the differences between the data types in C++/Win32 and the data types in VBA.
 
+4.  VBA __CANNOT__ handle exceptions thrown by the Win32 API.  When an exception is thrown by the Win32 API and is percolated up to your VBA code, it will cause the application to close (crash) without warning, and these exceptions will __NOT__ be captured and handled by the VBA error handler.  When this happens, you can use the Windows Event Viewer to view the exception code number thrown just before the application crashed, and look up that exception number to find out more information about the exception that was thrown.
+
+5.  In Win32 programming, a method call may succeed, but still have errors, which can usually be checked by calling the `GetLastError()` function of the Win32 API.  Depending on the specific method being called, you may want to refer to the [Microsoft Win32 API documentation](https://learn.microsoft.com/en-us/windows/win32/api/) to determine if your specific method requires a call to the `GetLastError()` function to check for errors after it succeeds.
 
 
 ## Project Contributors:
