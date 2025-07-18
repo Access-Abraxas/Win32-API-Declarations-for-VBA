@@ -1,15 +1,16 @@
 # Win32 API Declarations for VBA
-This project is tracking the Win32 API declaration statements for VBA in the Microsoft Office applications.  These Win32 API declaration files have been provided by Microsoft and have changed over the years, with the introduction of 64-Bit versions of Windows and MS Office.  These Win32 API declaration statements are intended to be used with VBA in the Microsoft Office applications, such as MS Access, Excel, Outlook, and Word, and are dependent on the exact version of Office and Windows you are using.  For versions of MS Office 2007 and older, you should use the declaration statements in the "win32api.txt" file.  For versions of MS Office 2010 and later, you should use the declaration statements in the "win32api_ptrsafe.txt" file.
+This project is tracking the Win32 API declaration statements for VBA provided by Microsoft for the MS Office applications.  These Win32 API declarations have changed over the years, with the introduction of 64-Bit versions of Windows and MS Office, and changes to the Windows API.  These Win32 API declaration statements are intended to be used with VBA within the Microsoft Office applications, such as MS Access, Excel, Outlook, and Word, and are dependent on the exact version of Office and Windows you are using.  For versions of MS Office 2007 and older, you should use the declaration statements in the "win32api.txt" file.  For versions of MS Office 2010 and later, you should use the declaration statements in the "win32api_ptrsafe.txt" file.
 
 __*** WARNING ***__ 
-__USING THE WIN32 API FROM MS OFFICE CAN BE DEANGEROUS AND CAUSE YOUR PROGRAM TO CRASH, BECOME CORRUPT, AND/OR POTENTIALLY LOOSE DATA OR WORK!! ***__
+
+__USING THE WIN32 API FROM MS OFFICE CAN BE DEANGEROUS AND CAUSE YOUR PROGRAM TO CRASH, BECOME CORRUPT, AND/OR POTENTIALLY LOSE DATA OR WORK!__
 
 
 ## Where to View or Download:
 
-- For versions of Microsoft Office 2010 and later, use these declarations: [Win32api_ptrsafe.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA) 
+- For versions of Microsoft Office 2010 and later, use these declarations: [Win32api_ptrsafe.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api_ptrsafe.txt) 
 
-- For versions of Microsoft Office 2007 and earlier, use these declarations: [Win32api.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA) 
+- For versions of Microsoft Office 2007 and earlier, use these declarations: [Win32api.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api.txt) 
 
 
 ## How to Use:
