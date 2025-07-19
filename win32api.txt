@@ -1,5 +1,19 @@
 ' ------------------------------------------------------------------------
 '
+'
+'       WARNING - THESE ARE THE OLD WIN32 API DECLARATIONS
+'             FOR MICROSOFT OFFICE 2007 AND EARLIER.
+'     
+'
+'         For versions of Microsoft Office 2010 and later,
+'                use the Win32 API declarations in:
+' 
+'                       Win32api_ptrsafe.txt
+'
+'
+'
+' ------------------------------------------------------------------------
+'
 '    WIN32API.TXT -- Win32 API Declarations for Visual Basic
 '
 '              Copyright (C) 1994 Microsoft Corporation
