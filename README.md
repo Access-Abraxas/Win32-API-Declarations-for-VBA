@@ -2,7 +2,7 @@
 This project is tracking the Win32 API declaration statements for VBA provided by Microsoft for the MS Office applications.  These Win32 API declarations have changed over the years, with the introduction of 64-Bit versions of Windows and MS Office, and subsequent changes to the Windows API.  These Win32 API declaration statements are intended to be used with VBA within the Microsoft Office applications, such as MS Access, Excel, Outlook, and Word, and are dependent on the exact version of Office and Windows you are using.  For versions of MS Office 2007 and older, you should use the declaration statements in the "win32api.txt" file.  For versions of MS Office 2010 and later, you should use the declaration statements in the "win32api_ptrsafe.txt" file.
 
 ### *** WARNING *** 
-__USING THE WIN32 API FROM MS OFFICE CAN BE DANGEROUS IF NOT USED CORRECTLY, AND CAUSE YOUR PROGRAM TO CRASH, CAUSE YOUR DOCUMENTS TO BECOME CORRUPT, AND/OR POTENTIALLY CAUSE LOSS OF DATA OR WORK!__
+__USING THE WIN32 API FROM MS OFFICE CAN BE DANGEROUS IF NOT USED CORRECTLY, AND CAN CAUSE YOUR PROGRAM TO CRASH, CAUSE YOUR DOCUMENTS TO BECOME CORRUPT, CAUSE LOSS OF DATA, AND/OR CAUSE LOSS OF WORK! Be sure to fully research and thoroughly test any usage of the Win32 API within your MS Office applications.__
 
 
 
