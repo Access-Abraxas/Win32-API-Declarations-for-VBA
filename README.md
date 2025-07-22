@@ -15,9 +15,9 @@ __USING THE WIN32 API FROM MS OFFICE CAN BE DANGEROUS IF NOT USED CORRECTLY, AND
 
 
 ## How to Use:
-To use these Win32 API methods in you VBA code, complete the following steps:
+To use these Win32 API methods within your VBA code, complete the following steps:
 
-1. In the correct version of Win32 API file you need to use, find the declaration statement you need and copy it into the top of your VBA module, after any "Option" statements.
+1. In the correct version of Win32 API file you need to use (based on your version of MS Office and Windows), find the declaration statement you need and copy it into the top of your VBA module, after any "Option" statements.
 
 2. Also, depending on the specific method declaration statement, you may need additional type definitions, enums, or constants for that particular Win32 method.  Be sure to copy any additional required code to the top of your VBA file as well (if any) after the method declaration statements.
 
@@ -28,7 +28,7 @@ To use these Win32 API methods in you VBA code, complete the following steps:
 
 
 ## Additional Notes:
-Some things to be aware of when using these Win32 declaration statements with VBA code:
+Some things to be aware of when using these Win32 declaration statements within your VBA code:
 
 1.  The declarations in the "Win32api.txt" file are extremely old now (from 1994).  You may want to check these declarations against the specific version of Windows you are using them on, if you run into problems with any of the "old" Win32 declarations.
 
