@@ -8,9 +8,9 @@ __USING THE WIN32 API FROM MS OFFICE CAN BE DANGEROUS IF NOT USED CORRECTLY, AND
 
 ## Where to View or Download:
 
-- For versions of __Microsoft Office 2010 and later__, use these declarations: [Win32api_ptrsafe.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api_ptrsafe.txt) 
+- For versions of __Microsoft Office 2010 and later__, use these declarations: [Win32api_ptrsafe.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/vba/win32api.vba) 
 
-- For versions of __Microsoft Office 2007 and earlier__, use these declarations: [Win32api.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/win32api.txt) 
+- For versions of __Microsoft Office 2007 and earlier__, use these declarations: [Win32api.txt](https://github.com/Access-Abraxas/Win32-API-Declarations-for-VBA/blob/main/vba/win32api_ptrsafe.vba) 
 
 
 
