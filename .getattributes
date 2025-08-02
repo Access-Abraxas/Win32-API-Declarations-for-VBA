@@ -1,0 +1,5 @@
+# 
+# 2025-08-02 Added per DecimalTurn's comment here: https://github.com/DecimalTurn/VBA-GitHub-Checks/issues/812#issuecomment-3145073533 
+#
+win32api_ptrsafe.txt linguist-language=VBA
+win32api.txt linguist-language=VBA
